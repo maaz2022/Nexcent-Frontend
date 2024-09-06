@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import ClientShowCase from "./Components/ClientShowCase";
+import Features from "./Components/Facilities";
+import Community from "./Components/Community";
 
 export default function Home() {
   return (
     <>
-      <section className="bg-gray-100 w-full h-[416px] flex mt-4">
+      <section className="bg-[#F5F7FA] w-full h-[416px] flex mt-4">
       <div className="w-1/2 h-full flex justify-center items-center flex-col">
         <div className="">
           <h1 className="text-[45px] font-bold text-[#4D4D4D] leading-tight">
@@ -28,6 +30,12 @@ export default function Home() {
     </section>
     <section>
       <ClientShowCase/>
+    </section>
+    <section>
+      <Features/>
+    </section>
+    <section>
+      <Community/>
     </section>
     </>
   );
