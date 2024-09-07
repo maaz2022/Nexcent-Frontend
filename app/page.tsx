@@ -4,6 +4,8 @@ import ClientShowCase from "./Components/ClientShowCase";
 import Features from "./Components/Facilities";
 import Community from "./Components/Community";
 import Community2 from "./Components/Community2";
+import Community3 from "./Components/Community3";
+import Community4 from "./Components/Comunity4";
 
 export default function Home() {
   return (
@@ -35,13 +37,18 @@ export default function Home() {
     <section>
       <Features/>
     </section>
+         <section>
+      <Community4/>
+    </section>   
         <section>
       <Community2/>
     </section>
     <section>
       <Community/>
     </section>
-
+    <section>
+      <Community3/>
+    </section>
     </>
   );
 }

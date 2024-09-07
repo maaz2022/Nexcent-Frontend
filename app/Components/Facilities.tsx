@@ -27,7 +27,7 @@ const Features = () => {
             </h1>
             <p className='text-lg text-gray-500 mt-4'>Who is Nexcent suitable for?</p>
         </div>
-        <div className='flex justify-center items-center gap-5'>
+        <div className='flex justify-center items-center gap-20'>
             {features.map((feature, index) => (
                 <div key={index} className='flex flex-col items-center w-[300px] h-[250px] p-4 bg-white shadow-md rounded-lg space-y-6 hover:shadow-[#24C6AB] cursor-pointer'>
                     {feature.icon}
