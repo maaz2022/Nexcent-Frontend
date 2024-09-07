@@ -1,4 +1,4 @@
-import { HandHeart, Landmark, User, Users } from 'lucide-react'
+import { HandHeart, Landmark, Users } from 'lucide-react'
 import React from 'react'
 
 const Features = () => {

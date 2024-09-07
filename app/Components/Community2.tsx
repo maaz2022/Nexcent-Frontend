@@ -1,4 +1,4 @@
-import { BadgeDollarSign, CalendarHeart, DollarSign, FileStack, HandHeart, Hourglass, SquareCheck, Users } from "lucide-react";
+import { BadgeDollarSign, CalendarHeart, HandHeart, Users } from "lucide-react";
 import React from 'react';
 
 const Community2 = () => {
