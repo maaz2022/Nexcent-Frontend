@@ -3,6 +3,7 @@ import Link from "next/link";
 import ClientShowCase from "./Components/ClientShowCase";
 import Features from "./Components/Facilities";
 import Community from "./Components/Community";
+import Community2 from "./Components/Community2";
 
 export default function Home() {
   return (
@@ -34,9 +35,13 @@ export default function Home() {
     <section>
       <Features/>
     </section>
+        <section>
+      <Community2/>
+    </section>
     <section>
       <Community/>
     </section>
+
     </>
   );
 }

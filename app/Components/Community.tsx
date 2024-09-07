@@ -4,7 +4,7 @@ import React from 'react'
 
 const Community = () => {
   return (
-    <section className="bg-[#F5F7FA] w-full h-[416px] flex mt-4">
+    <section className="w-full h-[416px] flex mt-4">
       {/* Left side with Image */}
       <div className="w-1/2 h-full flex justify-center items-center">
         <Image
