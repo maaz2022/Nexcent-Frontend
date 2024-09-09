@@ -32,10 +32,7 @@ const Community3 = () => {
             <a href="/" className=" flex text-[#24C6AB] font-semibold hover:underline justify-center items-center text-2xl">
               Meet all customers &rarr;
             </a>
-            {/* Add more logos as needed */}
           </div>
-
-          {/* Link to Meet All Customers */}
           <div className="mt-6">
 
           </div>

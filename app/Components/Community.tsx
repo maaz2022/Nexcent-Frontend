@@ -5,7 +5,6 @@ import React from 'react'
 const Community = () => {
   return (
     <section className="w-full h-[416px] flex mt-4">
-      {/* Left side with Image */}
       <div className="w-1/2 h-full flex justify-center items-center">
         <Image
           src="/image (2).png" 
@@ -15,7 +14,7 @@ const Community = () => {
         />
       </div>
 
-      {/* Right side with text and button */}
+ 
       <div className="w-1/2 h-full flex flex-col justify-center px-8">
         <div className="max-w-[500px]">
           <h1 className="text-[36px] font-bold text-[#4D4D4D] leading-tight">

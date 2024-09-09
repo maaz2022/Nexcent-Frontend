@@ -6,6 +6,7 @@ import Community from "./Components/Community";
 import Community2 from "./Components/Community2";
 import Community3 from "./Components/Community3";
 import Community4 from "./Components/Comunity4";
+import Blog from "./Components/Blog";
 
 export default function Home() {
   return (
@@ -48,6 +49,9 @@ export default function Home() {
     </section>
     <section>
       <Community3/>
+    </section>
+    <section>
+      <Blog/>
     </section>
     </>
   );
