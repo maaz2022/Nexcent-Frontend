@@ -7,6 +7,9 @@ import Community2 from "./Components/Community2";
 import Community3 from "./Components/Community3";
 import Community4 from "./Components/Comunity4";
 import Blog from "./Components/Blog";
+import MiniSection from "./Components/MiniSection";
+import Footer from "./Components/Footer";
+
 
 export default function Home() {
   return (
@@ -52,6 +55,12 @@ export default function Home() {
     </section>
     <section>
       <Blog/>
+    </section>
+    <section>
+      <MiniSection/>
+    </section>
+    <section>
+      <Footer/>
     </section>
     </>
   );
