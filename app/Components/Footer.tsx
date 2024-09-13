@@ -1,4 +1,4 @@
-import { Dot, Dribbble, Instagram, Linkedin, Mail, Twitter, X } from 'lucide-react';
+import { Dot, Dribbble, Instagram, Linkedin, Mail, X } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 
